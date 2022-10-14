@@ -32,14 +32,15 @@ $posicaoDoArroba = strpos($email, '@', 0);
 $usuario = substr($email, 0, $posicaoDoArroba) . PHP_EOL;
 
 // Imprime em caixa alta a parte da variável de $email antes do "@" 
-echo strtoupper($usuario) . PHP_EOL;
-
+echo strtoupper($usuario);
 // Imprime a parte após "@" na string
 echo substr($email, $posicaoDoArroba + 1);
 
 echo PHP_EOL;
 
+// Desmembrando em 2 variáveis a string $nome com explode 
 list($nome, $sobrenome) = explode(' ', $nome);
-
+echo PHP_EOL;
+// Imprimindo as nossas duas novas variáveis 
 echo "Nome: $nome" . PHP_EOL;
 echo "Sobrenome: $sobrenome" . PHP_EOL;
