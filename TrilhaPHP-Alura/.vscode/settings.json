@@ -1,3 +1,67 @@
 {
-    "editor.fontSize": 15
-}
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": [
+            "emphasis",
+            "markup.italic",
+            "entity.name.directive.restructuredtext",
+            "markup.quote",
+            "keyword.expressions-and-types.swift",
+            "keyword.other.this",
+            "variable.language",
+            "variable.language punctuation.definition.variable.php",
+            "variable.other.readwrite.instance.ruby",
+            "variable.parameter.function.language.special",
+            "entity.other.inherited-class",
+            "comment.block.documentation entity.name.type",
+            "comment.block.documentation variable",
+            "entity.other.attribute-name",
+            "entity.name.variable.parameter",
+            "meta.at-rule.function variable",
+            "meta.at-rule.mixin variable",
+            "meta.function.arguments variable.other.php",
+            "meta.selectionset.graphql meta.arguments.graphql variable.arguments.graphql",
+            "variable.parameter",
+            "meta.decorator variable.other.readwrite",
+            "meta.decorator variable.other.property",
+            "support",
+            "entity.name.type",
+            "keyword.primitive-datatypes.swift",
+            "keyword.type.cs",
+            "meta.protocol-list.objc",
+            "meta.return-type.objc",
+            "source.go storage.type",
+            "source.groovy storage.type",
+            "source.java storage.type",
+            "source.powershell entity.other.attribute-name",
+            "storage.class.std.rust",
+            "storage.type.attribute.swift",
+            "storage.type.c",
+            "storage.type.core.rust",
+            "storage.type.cs",
+            "storage.type.groovy",
+            "storage.type.objc",
+            "storage.type.php",
+            "storage.type.haskell",
+            "storage.type.ocaml",
+            "meta.import variable.other.readwrite",
+            "meta.object-binding-pattern-variable variable.object.property",
+            "meta.variable.assignment.destructured.object.coffee variable",
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": [
+            "invalid",
+            "invalid.deprecated",
+            "variable.other.alias.yaml"
+          ],
+          "settings": {
+            "fontStyle": "italic underline"
+          }
+        }
+      ]
+    },
