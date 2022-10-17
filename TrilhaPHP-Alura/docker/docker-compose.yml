@@ -1,8 +1,9 @@
 version: "3.7" 
 services:
   nginx:
-    image: nginx:1.17.3
+    image: nginx:latest
     container_name: nginx
+    restart: always
     ports:
       - "8080:80"
     volumes:
@@ -14,7 +15,8 @@ services:
   php:
     build:
       context: .
-    image: phpdocker
+      dockerfile: Dockerfile
+    image: phpdocker/php:8.1
     container_name: php
     ports:
       - "9000:9000"
@@ -24,10 +26,11 @@ services:
     # links:
       # - mysql
   mysql:
-    image: mysql:5.7
+    image: mysql:latest
     container_name: mysql
     ports:
       - "3307:3306"
+    restart: always
     volumes:
       - mysql:/var/lib/mysql/
     environment:
