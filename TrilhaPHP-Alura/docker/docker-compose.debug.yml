@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  trilhaphpalura:
-    image: trilhaphpalura
+  phpdocker:
+    image: phpdocker
     build:
       context: .
       dockerfile: ./Dockerfile
