@@ -1,6 +1,9 @@
 <?php
 
-// Criando classe com suas atribuições e funcionalidades
+/* Criando classe com suas atribuições e funcionalidades
+1- Variável $this tem a referência(passar o conteúdo completo) para o objeto que chamou o método atual
+2- Early Return: é colocar na função um return para finalizar logo após ter algum erro
+*/
 class Conta
 {
 
@@ -21,7 +24,7 @@ class Conta
 
         $this->saldo -= $valorASacar;
             
-        $mensagemSaque =  "Você sacou: $valorASacar ! \r Seu novo saldo é de: $this->saldo.";
+        $mensagemSaque =  "Você sacou: $valorASacar! \r Seu novo saldo é de: $this->saldo.";
 
         return $mensagemSaque;
              
