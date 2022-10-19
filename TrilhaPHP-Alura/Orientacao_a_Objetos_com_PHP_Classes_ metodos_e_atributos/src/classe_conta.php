@@ -1,7 +1,9 @@
 <?php
 
+// Criando classe com suas atribuições e funcionalidades
 class Conta
 {
+
 // Definir dados da conta = ATRIBUTOS
 
     public string $cpfTitular;
