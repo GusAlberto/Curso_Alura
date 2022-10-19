@@ -1,15 +1,26 @@
 <?php
 
 // Importando os dados dos arquivos externos onde ficam as classes
-require 'classes_conta.php';
-require 'classes_banco.php';
+require_once 'src/classe_conta.php';
+require_once 'src/classe_banco.php';
 
 // Criando novas contas(objetos), depois adicionando informações às mesmas
 $umaConta = new Conta(); // Criando conta sem nenhum dado
+$umaConta->setNomeTitular('First Name');// Definindo nome da primeira conta
 
 $segundaConta = new Conta(); // Criando segunda conta sem nenhum dado
-$segundaConta -> nomeTitular = 'Gustavo'; // Definindo nome da segunda conta
+$segundaConta->setNomeTitular('Second name'); // Definindo nome da segunda conta
 
+$terceiraConta = new Conta();
+$terceiraConta->setNomeTitular('Hello World');
+$terceiraConta->depositar(300);
+
+
+//SAÍDA DE DADOS
+//Mostrar saldo da conta 3
+echo $terceiraConta->mostrarSaldo();
+
+/*
 // Criando arrays para cada banco
 $contaNubank = [];
 $contaInter = [];
@@ -24,3 +35,4 @@ $contaInter [] = new Conta();
 $contaInter [] = new Conta();
 $contaInter [] = new Conta();
 $contaInter [] = new Conta();
+*/

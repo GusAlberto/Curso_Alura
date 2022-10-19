@@ -3,15 +3,16 @@
 /* Criando classe com suas atribuições e funcionalidades
 1- Variável $this tem a referência(passar o conteúdo completo) para o objeto que chamou o método atual
 2- Early Return: é colocar na função um return para finalizar logo após ter algum erro
+3- Uma boa prática/recomendação geral deixar todos os Atributos privados e somente os Métodos públicos
 */
+
 class Conta
 {
+// Definir dados da conta = ATRIBUTOS / PROPRIEDADES
 
-// Definir dados da conta = ATRIBUTOS
-
-    public string $cpfTitular;
-    public string $nomeTitular;
-    public float $saldo = 0;
+    private string $cpfTitular;
+    private string $nomeTitular;
+    private float $saldo = 0;
 
 // Definir comportamentos da classe = MÉTODOS
 
@@ -60,4 +61,18 @@ class Conta
         return $mensagemTransferencia;
     }
 
+    public function mostrarSaldo(): string
+    {
+        return "O saldo da conta de $this->nomeTitular é: $this->saldo \r ;)";
+    }
+
+    public function setNomeTitular(string $nome)
+    {
+        $this->nomeTitular = $nome;
+    }
+
+    public function getNomeTitular()
+    {
+        return $this->nomeTitular;
+    }
 };
