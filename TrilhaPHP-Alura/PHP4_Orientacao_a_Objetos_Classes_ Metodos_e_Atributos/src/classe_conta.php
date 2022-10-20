@@ -6,8 +6,8 @@
 3- Early Return: é colocar na função um return para finalizar logo após ter algum erro
 4- É uma boa prática/recomendação geral deixar todos os Atributos privados e somente os Métodos públicos
 4.1- MAS nem todo método deve ser público
-5- Criar métodos de acesso Getters(get) e Setters(set) para poder acessar as propriedades privados
-6- O método construtor deve inicializar a instância de forma que ela seja válida, ou seja, não add muitas regras!
+5- Criamos métodos de acesso Getters(get) e Setters(set) para poder acessar as propriedades privados
+6- O método construtor deve inicializar a instância apenas de forma que ela seja válida, ou seja, não add muitas regras!
 */
 
 class Conta
