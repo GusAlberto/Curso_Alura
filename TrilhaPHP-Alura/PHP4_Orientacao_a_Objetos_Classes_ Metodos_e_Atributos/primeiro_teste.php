@@ -3,25 +3,34 @@
 /*
 - 
 */
-
 // Importando os dados dos arquivos externos onde ficam as classes
 require_once 'src/classe_conta.php';
 require_once 'src/classe_banco.php';
 
+// SAÍDA DE DADOS
 // Criando novas contas(objetos), depois adicionando informações às mesmas
-$umaConta = new Conta(); // Criando conta sem nenhum dado
-$umaConta->setNomeTitular('First Name');// Definindo nome da primeira conta
+$umaConta = new Conta('123.456.789-10', 'Gustavo'); // Criando primeira conta
+$umaConta->depositar(1500);
+//$umaConta->setNomeTitular('First Name');// Definindo nome da primeira conta sem construtor
 
-$segundaConta = new Conta(); // Criando segunda conta sem nenhum dado
-$segundaConta->setNomeTitular('Second name'); // Definindo nome da segunda conta
+$segundaConta = new Conta('123.456.987-10', 'Alberto'); // Criando segunda conta
+//$segundaConta->setNomeTitular('Second name'); // Definindo nome da primeira conta sem construtor
 
-$terceiraConta = new Conta();
-$terceiraConta->setNomeTitular('Hello World');
+$terceiraConta = new Conta('123.789.456-10', 'Hello World');
 $terceiraConta->depositar(300);
 
+echo PHP_EOL;
 
-//SAÍDA DE DADOS
-//Mostrar saldo da conta 3
+//Mostrar dados das contas 
+
+//Conta 1
+echo $umaConta->mostraTitular() . PHP_EOL;
+echo $umaConta->mostraCpf() . PHP_EOL;
+echo $umaConta->mostrarSaldo() . PHP_EOL;
+
+echo PHP_EOL;
+
+//Conta 3
 echo $terceiraConta->mostrarSaldo();
 echo "\r";
 

@@ -4,8 +4,10 @@
 1- Nomes de classes como se fossem *substantivo* e nome de métodos como se fossem *verbos*
 2- Variável $THIS tem a referência(passar o conteúdo completo) para o objeto que chamou o método atual
 3- Early Return: é colocar na função um return para finalizar logo após ter algum erro
-4- Uma boa prática/recomendação geral deixar todos os Atributos privados e somente os Métodos públicos
+4- É uma boa prática/recomendação geral deixar todos os Atributos privados e somente os Métodos públicos
+4.1- MAS nem todo método deve ser público
 5- Criar métodos de acesso Getters(get) e Setters(set) para poder acessar as propriedades privados
+6- O método construtor deve inicializar a instância de forma que ela seja válida, ou seja, não add muitas regras!
 */
 
 class Conta
@@ -14,9 +16,17 @@ class Conta
 
     private string $cpfTitular;
     private string $nomeTitular;
-    private float $saldo = 0;
+    private float $saldo;
 
 // Definir comportamentos da classe = MÉTODOS
+
+    public function __construct(string $cpfTitular, string $nomeTitular)
+    {
+       $this->cpfTitular = $cpfTitular;
+       $this->nomeTitular = $nomeTitular;
+       $this->saldo = 0;  
+       echo "Conta nova foi criada" . PHP_EOL;
+    }
 
     public function sacar(float $valorASacar): string
     {
@@ -26,7 +36,7 @@ class Conta
 
         $this->saldo -= $valorASacar;
             
-        $mensagemSaque =  "Você sacou: $valorASacar! \r Seu novo saldo é de: $this->saldo.";
+        $mensagemSaque =  "$this->saldo";
 
         return $mensagemSaque;       
     }
@@ -38,8 +48,7 @@ class Conta
         }
 
         $this->saldo += $valorADepositar;
-
-        $mensagemDeposito =  "Você depositou: $valorADepositar! \r Seu novo saldo é de: $this->saldo.";
+        $mensagemDeposito =  "$this->saldo";
         
         return $mensagemDeposito;
     }
@@ -54,17 +63,27 @@ class Conta
 
         $contaDestino->depositar($valorATransferir);
         
-        $mensagemTransferencia =  "Você transferiu: $valorATransferir! \r Seu novo saldo é de: $this->saldo.";
+        $mensagemTransferencia =  "$this->saldo";
         
         return $mensagemTransferencia;
     }
 
-    public function mostrarSaldo(): string
+    public function mostraTitular(): string
     {
-        return "O saldo da conta de $this->nomeTitular é: $this->saldo \r ;)";
+        return "O nome do titular é: $this->nomeTitular";
     }
 
-    // ---> GETTERS AND SETTERS (Métodos de acesso) <----
+    public function mostraCpf(): string
+    {
+        return "O CPF do titular da conta: $this->cpfTitular";
+    }
+
+    public function mostrarSaldo(): string
+    {
+        return "O saldo da conta é de: R$$this->saldo \r ;)";
+    }
+
+    /* ---> GETTERS AND SETTERS (Métodos de acesso) <----
     public function setNomeTitular(string $nome)
     {
         $this->nomeTitular = $nome;
@@ -74,4 +93,6 @@ class Conta
     {
         return $this->nomeTitular;
     }
+    */
+
 };
