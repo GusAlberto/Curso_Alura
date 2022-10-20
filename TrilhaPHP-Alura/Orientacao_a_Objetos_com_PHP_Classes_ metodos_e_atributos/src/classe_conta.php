@@ -1,7 +1,7 @@
 <?php
 
 /* Criando classe com suas atribuições e funcionalidades
-1- Variável $this tem a referência(passar o conteúdo completo) para o objeto que chamou o método atual
+1- Variável $THIS tem a referência(passar o conteúdo completo) para o objeto que chamou o método atual
 2- Early Return: é colocar na função um return para finalizar logo após ter algum erro
 3- Uma boa prática/recomendação geral deixar todos os Atributos privados e somente os Métodos públicos
 */
@@ -18,8 +18,7 @@ class Conta
 
     public function sacar(float $valorASacar): string
     {
-        if ($valorASacar > $this->saldo) 
-        {
+        if ($valorASacar > $this->saldo) {
             return 'Saldo indisponível.';
         }
 
@@ -27,14 +26,12 @@ class Conta
             
         $mensagemSaque =  "Você sacou: $valorASacar! \r Seu novo saldo é de: $this->saldo.";
 
-        return $mensagemSaque;
-             
+        return $mensagemSaque;       
     }
 
     public function depositar(float $valorADepositar): string
     {
-        if ($valorADepositar < 0) 
-        {
+        if ($valorADepositar < 0) {
             return "Valor precisa ser positivo.";
         }
 
@@ -47,8 +44,7 @@ class Conta
 
     public function transferir(float $valorATransferir, Conta $contaDestino): string
     {
-        if ($valorATransferir > $this->saldo) 
-        {
+        if ($valorATransferir > $this->saldo) {
             return "Você não possui saldo para essa operação.";   
         } 
 

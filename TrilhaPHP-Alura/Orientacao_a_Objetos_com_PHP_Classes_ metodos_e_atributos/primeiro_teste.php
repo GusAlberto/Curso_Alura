@@ -19,6 +19,7 @@ $terceiraConta->depositar(300);
 //SAÍDA DE DADOS
 //Mostrar saldo da conta 3
 echo $terceiraConta->mostrarSaldo();
+echo "\r";
 
 /*
 // Criando arrays para cada banco
