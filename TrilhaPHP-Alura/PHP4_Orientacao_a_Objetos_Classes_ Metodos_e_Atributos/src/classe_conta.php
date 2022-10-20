@@ -1,9 +1,11 @@
 <?php
 
 /* Criando classe com suas atribuições e funcionalidades
-1- Variável $THIS tem a referência(passar o conteúdo completo) para o objeto que chamou o método atual
-2- Early Return: é colocar na função um return para finalizar logo após ter algum erro
-3- Uma boa prática/recomendação geral deixar todos os Atributos privados e somente os Métodos públicos
+1- Nomes de classes como se fossem *substantivo* e nome de métodos como se fossem *verbos*
+2- Variável $THIS tem a referência(passar o conteúdo completo) para o objeto que chamou o método atual
+3- Early Return: é colocar na função um return para finalizar logo após ter algum erro
+4- Uma boa prática/recomendação geral deixar todos os Atributos privados e somente os Métodos públicos
+5- Criar métodos de acesso Getters(get) e Setters(set) para poder acessar as propriedades privados
 */
 
 class Conta
@@ -62,6 +64,7 @@ class Conta
         return "O saldo da conta de $this->nomeTitular é: $this->saldo \r ;)";
     }
 
+    // ---> GETTERS AND SETTERS (Métodos de acesso) <----
     public function setNomeTitular(string $nome)
     {
         $this->nomeTitular = $nome;
