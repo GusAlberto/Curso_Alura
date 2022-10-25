@@ -15,7 +15,7 @@ require_once 'src/classe_Funcionario.php';
 
 /*---=== SAÍDA DE DADOS ===---*/
 
-// Criando novas contas(objetos)
+// Criando novos Objetos (Endereço, Titular, Conta)
 
 $endereco1 = new Endereco ('Belo Horizonte', 'Santa Cruz', 'Rua A', '100');
 $gustavo = new Titular (new CPF ('123.456.789-10'), 'Gustavo', $endereco1);
@@ -42,7 +42,7 @@ var_dump($primeiraConta) . PHP_EOL;
 //Conta 1
 echo "Conta 1" . PHP_EOL;
 echo "Nome titular da conta: ", $primeiraConta->mostrarTitular() . PHP_EOL;
-echo "O CPF da conta é:", $primeiraConta->mostrarCpf() . PHP_EOL;
+echo "O CPF da conta é: ", $primeiraConta->mostrarCpf() . PHP_EOL;
 echo "O saldo da conta é de: R$", $primeiraConta->mostrarSaldo() . "\r ;)" . PHP_EOL;
 //echo 'O endereço do titular: ', $primeiraConta->mostrarEndereco() . PHP_EOL;
 
@@ -51,7 +51,7 @@ echo PHP_EOL;
 //Conta 2
 echo "Conta 2" . PHP_EOL;
 echo "Nome titular da conta: ", $segundaConta->mostrarTitular() . PHP_EOL;
-echo "O CPF da conta é:", $segundaConta->mostrarCpf() . PHP_EOL;
+echo "O CPF da conta é: ", $segundaConta->mostrarCpf() . PHP_EOL;
 echo "O saldo da conta é de: R$", $segundaConta->mostrarSaldo() . "\r ;)" . PHP_EOL;
 echo PHP_EOL;
 
