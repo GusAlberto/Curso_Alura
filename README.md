@@ -1,7 +1,7 @@
 # Curso_Alura
 
 <p align="center">
-   <img src="https://github.com/GusAlberto/Curso_Alura/tree/main/TrilhaPHP-Alura" #vitrinedev/>
+   <img src="https://github.com/GusAlberto/Curso_Alura/tree/main/TrilhaPHP-Alura" alt="php" width="100" height="40">
 </p>
 
 <p align="center">
@@ -59,9 +59,7 @@
 Você pode [acessar o código fonte do projeto](https://github.com/GusAlberto/Curso_Alura/tree/main/TrilhaPHP-Alura) ou [baixá-lo](https://github.com/GusAlberto/Curso_Alura/archive/refs/heads/main.zip).
 
 ## Desenvolvedor
-| [<img src="https://avatars.githubusercontent.com/u/93230453?v=4" width=150>
-<br>
-<sub>Gustavo Alberto de Souza Silva</sub>](https://github.com/GusAlberto)  |    |
+|    |
 | :---: | :---: 
 | [<img src="https://avatars.githubusercontent.com/u/93230453?v=4" width=150>
 <br>
