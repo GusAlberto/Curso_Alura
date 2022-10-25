@@ -1,6 +1,10 @@
 # Curso_Alura
 
 <p align="center">
+   <img src="https://github.com/GusAlberto/Curso_Alura/tree/main/TrilhaPHP-Alura" #vitrinedev/>
+</p>
+
+<p align="center">
    <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge" #vitrinedev/>
 </p>
 
@@ -10,13 +14,9 @@
 
 - [Funcionalidades](#funcionalidades)
 
-- [Aplicação](#aplicação)
-
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
 
 - [Acesso ao projeto](#acesso-ao-projeto)
-
-- [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
 
 - [Desenvolvedor](#desenvolvedor)
 
@@ -24,7 +24,6 @@
 
 <p align="justify">
  Projetos em desenvolvimento para especializar na linguagem PHP.
-
 </p>
 
 ## Funcionalidades
@@ -41,7 +40,7 @@
 
 <div align="center">
 
-!(https://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif)
+(https://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif)
 
   </div>
 
@@ -49,7 +48,7 @@
 
 ## Ferramentas utilizadas
 
-<a href="https://www.php.net" target="_blank"> <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/php.jpg" alt="php" width="40" height="40"/> </a> 
+<a href="https://www.php.net" target="_blank"> <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php-1024x512.png" alt="php" width="40" height="40"/> </a> 
 
 <a href="https://www.docker.com/" target="_blank"> <img src="LINK IMAGEM NO GITHUB" alt="androidStudio" width="40" height="40"/> </a> 
 
@@ -59,9 +58,11 @@
 
 Você pode [acessar o código fonte do projeto](https://github.com/GusAlberto/Curso_Alura/tree/main/TrilhaPHP-Alura) ou [baixá-lo](https://github.com/GusAlberto/Curso_Alura/archive/refs/heads/main.zip).
 
-## Abrir e rodar o projeto
-
-## Desenvolvedores
-
-| [<img src="https://avatars.githubusercontent.com/u/93230453?v=4" width=115><br><sub>Gustavo Alberto de Souza Silva</sub>](https://github.com/GusAlberto) 
-|| :---: | :---: 
+## Desenvolvedor
+| [<img src="https://avatars.githubusercontent.com/u/93230453?v=4" width=150>
+<br>
+<sub>Gustavo Alberto de Souza Silva</sub>](https://github.com/GusAlberto)  |    |
+| :---: | :---: 
+| [<img src="https://avatars.githubusercontent.com/u/93230453?v=4" width=150>
+<br>
+<sub>Gustavo Alberto de Souza Silva</sub>](https://github.com/GusAlberto) 
