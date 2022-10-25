@@ -19,7 +19,7 @@ class CPF
         $this->numero = $numero;
     }
 
-    public function getCpf(): string
+    public function getCPF(): string
     {
         return $this->numero;
     }

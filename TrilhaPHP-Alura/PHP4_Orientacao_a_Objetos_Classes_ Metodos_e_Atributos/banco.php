@@ -6,11 +6,11 @@
 */
 
 // Importando os dados dos arquivos externos onde ficam as classes
-require_once 'src/classe_conta.php';
-require_once 'src/classe_endereco.php';
-require_once 'src/classe_titular.php';
-require_once 'src/classe_cpf.php';
-
+require_once 'src/classe_Conta.php';
+require_once 'src/classe_Endereco.php';
+require_once 'src/classe_Titular.php';
+require_once 'src/classe_CPF.php';
+require_once 'src/classe_Pessoa.php';
 
 // SAÍDA DE DADOS
 // Criando novas contas(objetos), depois adicionando informações às mesmas
@@ -62,7 +62,7 @@ echo PHP_EOL;
 // Antes de printar retirar a segunda conta da memória com Unset
 echo "Você excluiu uma das contas ativas! \r"; unset($terceiraConta);
 
-echo "Número de contas na classe(ativas): ", Conta::mostrarNumeroDeContas();
+echo "Número de contas ativas na class Conta: ", Conta::mostrarNumeroDeContas();
 
 ;
 

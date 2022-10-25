@@ -1,12 +1,10 @@
 <?php
 
-class Titular
+class Titular extends Pessoa
 {
-    private CPF $cpf;
-    private string $nome;
     private Endereco $endereco;
 
-    public function __construct (CPF $cpf, string $nome, Endereco $endereco)
+    public function __construct (Pessoa $cpf, string $nome, Endereco $endereco)
     {
         $this->cpf = $cpf;
         $this->nome = $nome;
@@ -14,9 +12,9 @@ class Titular
     }
 
 //---> GETTERS AND SETTERS (Métodos de acesso) <---- */
-    public function getCpf(): string
+    public function getCPF(): string
     {
-        return $this->cpf->getCpf();
+        return "$this->cpf->getCPF()";
     }
 
     public function getNome(): string
