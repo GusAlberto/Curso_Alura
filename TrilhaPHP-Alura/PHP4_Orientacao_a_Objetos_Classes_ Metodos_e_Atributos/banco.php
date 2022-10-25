@@ -7,25 +7,28 @@
 
 // Importando os dados dos arquivos externos onde ficam as classes
 require_once 'src/classe_Conta.php';
+require_once 'src/classe_Pessoa.php';
 require_once 'src/classe_Endereco.php';
 require_once 'src/classe_Titular.php';
 require_once 'src/classe_CPF.php';
-require_once 'src/classe_Pessoa.php';
 
-// SAÍDA DE DADOS
-// Criando novas contas(objetos), depois adicionando informações às mesmas
-$endereco = new Endereco ('Belo Horizonte', 'Santa Cruz', 'Rua A', '100');
-$gustavo = new Titular (new CPF('123.456.789-10'), 'Gustavo', $endereco);
-$primeiraConta = new Conta($gustavo); // Criando primeira conta
+/*---=== SAÍDA DE DADOS ===---*/
+
+// Criando novas contas(objetos)
+
+$endereco1 = new Endereco ('Belo Horizonte', 'Santa Cruz', 'Rua A', '100');
+$gustavo = new Titular (new Pessoa('Gustavo', '123.456.789-10', $endereco1);
+$primeiraConta = new Conta ($gustavo); // Criando primeira conta
 $primeiraConta->depositar(1500);
 //$primeiraConta->setNomeTitular('First Name');// Definindo nome da primeira conta sem construtor
 
-$alberto = new Titular (new CPF('123.456.789-10'), 'Alberto', $endereco);
+$endereco2 = new Endereco ('Belo Horizonte', 'Santa Cruz', 'Rua A', '100');
+$alberto = new Titular (new Pessoa('123.456.789-10'), 'Alberto', $endereco2);
 $segundaConta = new Conta($alberto); // Criando segunda conta
 //$segundaConta->setNomeTitular('Second name'); // Definindo nome da primeira conta sem construtor
 
-$endereco2 = new Endereco ('Belo Horizonte', 'Santa Cruz', 'Rua A', '100');
-$helloworld = new Titular (new CPF('123.789.456-10'), 'Hello World', $endereco2);
+$endereco3 = new Endereco ('Belo Horizonte', 'Santa Cruz', 'Rua A', '100');
+$helloworld = new Titular (new Pessoa('123.789.456-10'), 'Hello World', $endereco3);
 $terceiraConta = new Conta($helloworld);
 $terceiraConta->depositar(300);
 
@@ -65,20 +68,3 @@ echo "Você excluiu uma das contas ativas! \r"; unset($terceiraConta);
 echo "Número de contas ativas na class Conta: ", Conta::mostrarNumeroDeContas();
 
 ;
-
-/*
-// Criando arrays para cada banco
-$contaNubank = [];
-$contaInter = [];
-
-// Adicionando posições no array para criar contas/objetos
-$contaInter [] = new Conta();
-$contaInter [] = new Conta();
-$contaInter [] = new Conta();
-$contaInter [] = new Conta();
-$contaInter [] = new Conta();
-$contaInter [] = new Conta(); 
-$contaInter [] = new Conta();
-$contaInter [] = new Conta();
-$contaInter [] = new Conta();
-*/

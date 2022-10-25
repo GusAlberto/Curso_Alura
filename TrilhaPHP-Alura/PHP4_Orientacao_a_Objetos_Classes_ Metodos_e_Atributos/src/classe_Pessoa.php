@@ -3,23 +3,25 @@
 class Pessoa
 {
     public string $nome;
-    public string $cpf;
+    public CPF $cpf;
 
-    public function __construct(string $nome, string $cpf)
+    public function __construct(string $nome, CPF $cpf)
     {
         $this->nome = $nome;
         $this->cpf = $cpf;
     }
 
-     // Getters and setters
+//---> GETTERS AND SETTERS (Métodos de acesso) <---- */
+
      public function getNome(): string
      {
          return $this->nome;
      }
- 
+
      public function getCPF(): string
      {
-         return $this->cpf;
+         return $this->cpf->getCPF();
      }
- 
+
 }
+;

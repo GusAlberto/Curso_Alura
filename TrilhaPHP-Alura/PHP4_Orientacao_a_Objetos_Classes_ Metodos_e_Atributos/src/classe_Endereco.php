@@ -15,7 +15,7 @@ class Endereco
         $this->$numero = $numero;
     }
 
-    // Getters and setters
+//---> GETTERS AND SETTERS (Métodos de acesso) <---- */
     public function getCidade(): string
     {
         return $this->cidade;

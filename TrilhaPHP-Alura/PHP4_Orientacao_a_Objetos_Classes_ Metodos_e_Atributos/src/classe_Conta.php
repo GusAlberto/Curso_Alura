@@ -99,9 +99,9 @@ class Conta
         return $this->titular->getNome();
     }
 
-    public function mostrarCpf(): string
+    public function mostrarCPF(): string
     {
-        return $this->titular->getCpf();
+        return $this->titular->getCPF();
     }
 
     public function mostrarEndereco(): string
@@ -119,4 +119,5 @@ class Conta
         return self::$numeroDeContas;
     }
 
-};
+}
+;
