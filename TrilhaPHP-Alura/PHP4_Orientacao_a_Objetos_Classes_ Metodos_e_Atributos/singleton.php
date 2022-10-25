@@ -1,13 +1,15 @@
 <?php
 
-class Conta {
+class Account 
+{
     private static $instance;
 
-    private __construct() {
+    private __construct() 
+    {
 
     }
 
-    public static function getInstance() 
+    public static function getInstance()
     {
         if (!self::instance){
             return self::$instance;
