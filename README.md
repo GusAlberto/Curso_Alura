@@ -1,7 +1,7 @@
 # Curso_Alura PHP
 
 <p align="center">
-   <img src="https://github.com/GusAlberto/Curso_Alura/tree/main/TrilhaPHP-Alura" #vitrinedev/>
+   <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/php.jpg?raw=true"/>
 </p>
 
 <p align="center">
