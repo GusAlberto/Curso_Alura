@@ -1,7 +1,7 @@
 # Formação PHP | Alura
 
 <p align="center">
-   <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/php.jpg?raw=true" width="80" height="80">
+   <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/php.jpg?raw=true" width="920" height="200">
 </p>
 
 <p align="center">
@@ -40,13 +40,13 @@
 
 <div align="center">
 
-<img src=(https://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif) width="80" height="80">
+<img src=(https://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif) width="300" height="150">
 
 </div>
 
 ## Ferramentas utilizadas
 
-<a href="https://www.php.net" target="_blank"> <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php-1024x512.png" alt="php" width="80" height="80"/> </a> 
+<a href="https://www.php.net" target="_blank"> <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php-1024x512.png" alt="php" width="120" height="120"/> </a> 
 
 <a href="https://www.docker.com/" target="_blank"> <img src="LINK IMAGEM NO GITHUB" width="40" height="40"/> </a> 
 
@@ -57,4 +57,5 @@ Você pode [acessar o código fonte do projeto](https://github.com/GusAlberto/Cu
 ## Desenvolvedor
 
 | [<img src="https://avatars.githubusercontent.com/u/93230453?v=4" width=115><br>Gustavo Alberto de Souza Silva</sub>](https://github.com/GusAlberto) |
+|
 | :---: | :---: 
