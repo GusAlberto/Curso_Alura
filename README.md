@@ -59,5 +59,5 @@ Você pode [acessar o código fonte do projeto](https://github.com/GusAlberto/Cu
 
 ## Desenvolvedor
 
-| [<img src="https://avatars.githubusercontent.com/u/93230453?v=4" width=115><br>Gustavo Alberto de Souza Silva</sub>](https://github.com/GusAlberto) |   |
+| [<img src="https://avatars.githubusercontent.com/u/93230453?v=4" width=115><br>Gustavo Alberto de Souza Silva</sub>](https://github.com/GusAlberto) |   
 | :---: |
