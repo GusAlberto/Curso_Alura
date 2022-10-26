@@ -1,7 +1,7 @@
 # Formação PHP | Alura
 
 <p align="center">
-   <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/php.jpg?raw=true" width="1024" height="450">
+   <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/php.jpg?raw=true" width="1024" height="400">
 </p>
 
 [Status em desenvolvimento]
@@ -21,8 +21,7 @@
 
 - [Desenvolvedor](#desenvolvedor)
 
-##
-
+#
 ## Descrição do projeto 
 
 <p align="justify">
