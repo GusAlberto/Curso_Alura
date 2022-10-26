@@ -4,7 +4,7 @@
    <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/php.jpg?raw=true" width="1024" height="400">
 </p>
 
-[Status em desenvolvimento]
+![Status em desenvolvimento]
 <p align="center">
   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge">
 </p>
@@ -70,3 +70,6 @@ Você pode [acessar o código fonte do projeto](https://github.com/GusAlberto/Cu
 
 | [<img src="https://avatars.githubusercontent.com/u/93230453?v=4" width=115><br>Gustavo Alberto de Souza Silva</sub>](https://github.com/GusAlberto) |   
 | :---: |
+
+# Índice * [Título e Imagem de capa](#Título-e-Imagem-de-capa)* [Badges](#badges)* [Índice](#índice)* [Descrição do Projeto](#descrição-do-projeto)* [Status do Projeto](#status-do-Projeto)* [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)* [Acesso ao Projeto](#acesso-ao-projeto)* [Tecnologias utilizadas](#tecnologias-utilizadas)* [Pessoas Contribuidoras](#pessoas-contribuidoras)* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)* [Licença](#licença)* [Conclusão](#conclusão)
+
