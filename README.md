@@ -4,7 +4,7 @@
    <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/php.jpg?raw=true" width="1024" height="450">
 </p>
 
-![Status em desenvolvimento]
+[Status em desenvolvimento]
 <p align="center">
   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge">
 </p>
@@ -29,6 +29,8 @@
  Projetos em desenvolvimento para especializar na linguagem PHP.
 </p>
 
+##
+
 ## Funcionalidades
 
 :heavy_check_mark: `Funcionalidade 1:` 1.
@@ -39,6 +41,8 @@
 
 :heavy_check_mark: `Funcionalidade 4:` 4.
 
+##
+
 ## Codando
 
 <div align="center">
@@ -47,15 +51,21 @@
 
 </div>
 
+##
+
 ## Ferramentas utilizadas
 
 <a href="https://www.php.net" target="_blank"> <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php-1024x512.png" alt="php" width="120" height="120"/> </a> 
 
 <a href="https://www.docker.com/" target="_blank"> <img src="LINK IMAGEM NO GITHUB" width="40" height="40"/> </a> 
 
+##
+
 ## Acesso ao projeto
 
 Você pode [acessar o código fonte do projeto](https://github.com/GusAlberto/Curso_Alura/tree/main/TrilhaPHP-Alura) ou [baixá-lo](https://github.com/GusAlberto/Curso_Alura/archive/refs/heads/main.zip).
+
+##
 
 ## Desenvolvedor
 
