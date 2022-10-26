@@ -1,11 +1,11 @@
-# Curso_Alura PHP
+# Formação PHP | Alura
 
 <p align="center">
-   <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/php.jpg?raw=true"/>
+   <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/php.jpg?raw=true" width="80" height="80">
 </p>
 
 <p align="center">
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge" #vitrinedev/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge">
 </p>
 
 ### Tópicos 
@@ -40,11 +40,9 @@
 
 <div align="center">
 
-(https://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif)
+<img src=(https://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif) width="80" height="80">
 
-  </div>
-
-###
+</div>
 
 ## Ferramentas utilizadas
 
@@ -52,13 +50,11 @@
 
 <a href="https://www.docker.com/" target="_blank"> <img src="LINK IMAGEM NO GITHUB" width="40" height="40"/> </a> 
 
-###
-
 ## Acesso ao projeto
 
 Você pode [acessar o código fonte do projeto](https://github.com/GusAlberto/Curso_Alura/tree/main/TrilhaPHP-Alura) ou [baixá-lo](https://github.com/GusAlberto/Curso_Alura/archive/refs/heads/main.zip).
 
 ## Desenvolvedor
 
-| [<img src="https://avatars.githubusercontent.com/u/93230453?v=4" width=115><br>Gustavo Alberto de Souza Silva</sub>](https://github.com/GusAlberto) |   |
+| [<img src="https://avatars.githubusercontent.com/u/93230453?v=4" width=115><br>Gustavo Alberto de Souza Silva</sub>](https://github.com/GusAlberto) |
 | :---: | :---: 
