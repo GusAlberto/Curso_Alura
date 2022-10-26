@@ -3,15 +3,25 @@
 /* Fazendo observações sobre como funciona o sistema
 ~~~~~Explanation topics~~~~~
 1- 
+2- Utilizamos AutoLoader pra carregar as classes através de um padrão PSR-4
 */
 
 // Importando os dados dos arquivos externos onde ficam as classes
-require_once 'src/classe_Conta.php';
-require_once 'src/classe_Pessoa.php';
-require_once 'src/classe_CPF.php';
-require_once 'src/classe_Endereco.php';
-require_once 'src/classe_Titular.php';
-require_once 'src/classe_Funcionario.php';
+//require_once 'autoload.php';
+
+require_once 'src/Modelo/Pessoa.php';
+require_once 'src/Modelo/CPF.php';
+
+require_once 'src/Modelo/Conta/Titular.php';
+require_once 'src/Modelo/Conta/Conta.php';
+
+require_once 'src/Modelo/Endereco.php';
+require_once 'src/Modelo/Funcionario.php';
+
+use Alura\Banco\Modelo\Conta\Titular;
+use Alura\Banco\Modelo\Endereco;
+use Alura\Banco\Modelo\CPF;
+use Alura\Banco\Modelo\Conta\Conta;
 
 /*---=== SAÍDA DE DADOS ===---*/
 
@@ -36,8 +46,7 @@ $terceiraConta->depositar(300);
 echo PHP_EOL;
 
 // Mostrando dados das contas
-
-var_dump($primeiraConta) . PHP_EOL;
+// var_dump($primeiraConta) . PHP_EOL;
 
 //Conta 1
 echo "Conta 1" . PHP_EOL;

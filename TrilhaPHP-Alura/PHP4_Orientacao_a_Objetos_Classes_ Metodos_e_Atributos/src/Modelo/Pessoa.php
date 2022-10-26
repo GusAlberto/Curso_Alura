@@ -1,8 +1,12 @@
 <?php
 
+namespace Alura\Banco\Modelo;
+
+use Alura\Banco\Modelo\CPF;
+
 class Pessoa
 {
-    private string $nome;
+    protected string $nome;
     private CPF $cpf;
 
     public function __construct(string $nome, CPF $cpf)

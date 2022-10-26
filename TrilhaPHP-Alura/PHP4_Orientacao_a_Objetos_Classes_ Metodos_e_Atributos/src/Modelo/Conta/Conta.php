@@ -30,6 +30,11 @@ Criando classe com suas atribuições e funcionalidades
 10- Composição de objetos é quando desmembramos uma classe(Conta) em diversos outros classes(Titular) e objetos; 
 */
 
+namespace Alura\Banco\Modelo\Conta;
+
+use Alura\Banco\Modelo\Endereco;
+use Alura\Banco\Modelo\Conta\Titular;
+
 class Conta
 {
 // Definir dados da conta = ATRIBUTOS / PROPRIEDADES

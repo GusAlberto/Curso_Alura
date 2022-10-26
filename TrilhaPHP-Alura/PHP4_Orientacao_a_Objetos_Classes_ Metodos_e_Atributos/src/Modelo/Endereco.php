@@ -1,5 +1,7 @@
 <?php
 
+namespace Alura\Banco\Modelo;
+
 class Endereco
 {
     private string $cidade;
@@ -12,7 +14,7 @@ class Endereco
         $this->cidade = $cidade;
         $this->bairro = $bairro;
         $this->rua = $rua;
-        $this->$numero = $numero;
+        $this->numero = $numero;
     }
 
 //---> GETTERS AND SETTERS (Métodos de acesso) <---- */
