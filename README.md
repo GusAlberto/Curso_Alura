@@ -46,7 +46,7 @@
 
 <div align="center">
 
-<img src=(https://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif) width="300" height="150">
+<img src="https://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif" width="300" height="150">
 
 </div>
 
@@ -66,7 +66,7 @@ Você pode [acessar o código fonte do projeto](https://github.com/GusAlberto/Cu
 
 #
 
-# Desenvolvedor
+## Desenvolvedor
 
 | [<img src="https://avatars.githubusercontent.com/u/93230453?v=4" width=115><br>Gustavo Alberto de Souza Silva</sub>](https://github.com/GusAlberto) |   
 | :---: |
