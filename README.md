@@ -4,7 +4,6 @@
    <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/php.jpg?raw=true" width="1024" height="400">
 </p>
 
-/*[Status em desenvolvimento]*/
 <p align="center">
   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge">
 </p>
