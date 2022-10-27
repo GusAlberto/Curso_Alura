@@ -25,16 +25,12 @@
 
 <p align="justify">
  Projetos em desenvolvimento para especializar na linguagem PHP.
-   <br>
- Anotações do curso:
-   <li
-      <br>
-      PHP: https://www.notion.so/PHP-Alura-98431a53d76042b8b0fb2c2bd233eedb
-      <br>
-      POO: https://plaid-son-de0.notion.site/Orienta-o-a-objetos-POO-168faeaef5204ad3b249a6ac7f6a6dd6
-   </li>
 </p>
 
+### Anotações do curso:
+   - PHP: https://www.notion.so/PHP-Alura-98431a53d76042b8b0fb2c2bd233eedb
+      <br>
+   - POO: https://plaid-son-de0.notion.site/Orienta-o-a-objetos-POO-168faeaef5204ad3b249a6ac7f6a6dd6
 ##
 
 ## Funcionalidades
@@ -51,7 +47,7 @@
 
 <div align="center">
    
-## $---===Codando===---$
+## $---=== Codando ===---$
 
 <img src="https://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif" width="500" height="350">
 
