@@ -66,10 +66,10 @@
       flex-direction: "row"}>
       
    <borderRadius>
-   <a href="https://www.php.net" target="_blank"> <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php-1024x512.png" alt="php" width="120" height="100" class="border-radius"/> </a> 
+   <a href="https://www.php.net" target="_blank"> <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/image%20(1).png?raw=true" alt="php" width="120" height="100" /> </a> 
    </borderRadius>
 
-   <a href="https://www.docker.com/" target="_blank"> <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/docker.png?raw=true" width="120" height="100" class="border-radius"/> </a> 
+   <a href="https://www.docker.com/" target="_blank"> <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/image.png?raw=true" width="120" height="100" /> </a> 
 </div>
 
 ##
@@ -84,10 +84,3 @@ Você pode [acessar o código fonte do projeto](https://github.com/GusAlberto/Cu
 
 | [<img src="https://avatars.githubusercontent.com/u/93230453?v=4" width=115><br>Gustavo Alberto de Souza Silva</sub>](https://github.com/GusAlberto) |   
 | :---: |
-
-<style>
-   a>img{
-      border-radius: 20%;
-   }
-   
-   </style>
