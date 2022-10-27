@@ -60,10 +60,8 @@
      style={
       display: "flex",
       flex-direction: "row"}>
-      
-   <borderRadius>
+   
    <a href="https://www.php.net" target="_blank"> <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/image%20(1).png?raw=true" alt="php" width="120" height="100" /> </a> 
-   </borderRadius>
 
    <a href="https://www.docker.com/" target="_blank"> <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/image.png?raw=true" width="120" height="100" /> </a> 
 </div>
