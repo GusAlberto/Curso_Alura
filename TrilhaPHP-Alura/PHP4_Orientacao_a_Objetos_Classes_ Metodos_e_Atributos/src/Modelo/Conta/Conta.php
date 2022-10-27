@@ -28,22 +28,24 @@ Criando classe com suas atribuições e funcionalidades
 9.2- Pode ser acessada sem a criação de um objeto.
 ------------------------------------------------------------------------------------------------------------------------
 10- Composição de objetos é quando desmembramos uma classe(Conta) em diversos outros classes(Titular) e objetos; 
+------------------------------------------------------------------------------------------------------------------------
+11- Classe abstrata não pode ser instanciada;
+11.1- Só podemos criar objetos das classes que extendem a classe abstrata pai;
+11.2- Tendo um método abstrato, obriga que todas as classes filhas implementem aquele método
+------------------------------------------------------------------------------------------------------------------------
+
 */
 
 namespace Alura\Banco\Modelo\Conta;
 
-use Alura\Banco\Modelo\Endereco;
-use Alura\Banco\Modelo\Conta\Titular;
-
-class Conta
+abstract class Conta
 {
-// Definir dados da conta = ATRIBUTOS / PROPRIEDADES
+// Definindo o que a classe precisa ter = ATRIBUTOS / PROPRIEDADES
     private Titular $titular;
-    private Endereco $endereco;
     private float $saldo;
     public static $numeroDeContas = 0;
 
-// Definir métodos mágicos da classe = Irão inicializar sempre
+// Definindo métodos mágicos da classe = Irão inicializar/rodar sempre que a classe for instanciada
     public function __construct(Titular $titular)
     {
        $this->titular = $titular;
@@ -58,21 +60,25 @@ class Conta
         self::$numeroDeContas--;
     }
 
-// Definir comportamentos da classe = MÉTODOS
-    public function sacar(float $valorASacar): string
+// Definindo comportamentos da classe = MÉTODOS
+
+    abstract public function percentualTarifa(): float
     {
-        if ($valorASacar > $this->saldo) {
-            return 'Saldo indisponível.';
-        }
-
-        $this->saldo -= $valorASacar;
-            
-        $mensagemSaque =  "$this->saldo";
-
-        return $mensagemSaque;       
+        ;
     }
 
-    public function depositar(float $valorADepositar): string
+    public function saca(float $valorASacar): void
+    {
+        $tarifaSaque = $valorASacar * $this->percentualTarifa();
+        $valorSaque = $valorASacar + $tarifaSaque;
+        if ($valorASacar > $this->saldo) {
+            echo "Saldo indisponível.";
+            return;
+        }
+        $this->saldo -= $valorASacar;   
+    }
+
+    public function deposita(float $valorADepositar): string
     {
         if ($valorADepositar < 0) {
             return "Valor precisa ser positivo.";
@@ -84,37 +90,22 @@ class Conta
         return $mensagemDeposito;
     }
 
-    public function transferir(float $valorATransferir, Conta $contaDestino): string
-    {
-        if ($valorATransferir > $this->saldo) {
-            return "Você não possui saldo para essa operação.";   
-        } 
-
-        $this->sacar($valorATransferir);
-
-        $contaDestino->depositar($valorATransferir);
-        
-        $mensagemTransferencia =  "$this->saldo";
-        
-        return $mensagemTransferencia;
-    }
-
-    public function mostrarTitular(): string
+    public function mostraTitular(): string
     {
         return $this->titular->getNome();
     }
 
-    public function mostrarCPF(): string
+    public function mostraCPF(): string
     {
         return $this->titular->getCPF();
     }
 
-    public function mostrarEndereco(): string
+    public function mostraEndereco(): string
     {
         return $this->endereco->getNumero();
     }
 
-    public function mostrarSaldo(): string
+    public function mostraSaldo(): string
     {
         return "$this->saldo";
     }
@@ -124,5 +115,6 @@ class Conta
         return self::$numeroDeContas;
     }
 
+    
 }
 ;
