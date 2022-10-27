@@ -28,10 +28,11 @@
    <br>
  Anotações do curso:
    <li
-   <br>
-   PHP: https://www.notion.so/PHP-Alura-98431a53d76042b8b0fb2c2bd233eedb
-   POO: https://plaid-son-de0.notion.site/Orienta-o-a-objetos-POO-168faeaef5204ad3b249a6ac7f6a6dd6
-    </li>
+      <br>
+      PHP: https://www.notion.so/PHP-Alura-98431a53d76042b8b0fb2c2bd233eedb
+      <br>
+      POO: https://plaid-son-de0.notion.site/Orienta-o-a-objetos-POO-168faeaef5204ad3b249a6ac7f6a6dd6
+   </li>
 </p>
 
 ##
@@ -60,9 +61,9 @@
 
 ## Ferramentas utilizadas
 
-<a href="https://www.php.net" target="_blank"> <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php-1024x512.png" alt="php" width="120" height="100" border="10"/> </a> 
+<a href="https://www.php.net" target="_blank"> <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php-1024x512.png" alt="php" width="120" height="100" border-radius="10px"/> </a> 
 
-<a href="https://www.docker.com/" target="_blank"> <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/docker.png?raw=true" width="120" height="100" border="10"/> </a> 
+<a href="https://www.docker.com/" target="_blank"> <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/docker.png?raw=true" width="120" height="100" border-radius="10px" /> </a> 
 
 ##
 
