@@ -12,7 +12,7 @@ Criando classe com suas atribuições e funcionalidades
 4- É uma boa prática/recomendação geral deixar todos os Atributos privados e somente os Métodos públicos;
 4.1- MAS nem todo método deve ser público;
 ------------------------------------------------------------------------------------------------------------------------
-5- Criamos métodos de acesso Getters(get) e Setters(set) para poder acessar as propriedades privados;
+5- Devemos criar métodos de acesso Getters(get) e Setters(set) para poder acessar as propriedades privados;
 ------------------------------------------------------------------------------------------------------------------------
 6- O método mágico construtor(__construc) serve para obrigar a informar os atributos da classe para criar o objeto;
 6.1- Devemos criar a instância apenas de forma que ela seja válida, ou seja, não add muitas regras! ;
@@ -27,7 +27,7 @@ Criando classe com suas atribuições e funcionalidades
 9.1- Ou seja, as funções estáticas são associadas à classe, não a uma instância da classe;
 9.2- Pode ser acessada sem a criação de um objeto.
 ------------------------------------------------------------------------------------------------------------------------
-10- Composição de objetos é quando desmembramos uma classe(Conta) em diversos outros classes(Titular) e objetos; 
+10- Composição de objetos é quando desmembramos uma classe(Conta) em diversos outras classes(Titular) e objetos; 
 ------------------------------------------------------------------------------------------------------------------------
 11- Classe abstrata não pode ser instanciada;
 11.1- Só podemos criar objetos das classes que extendem a classe abstrata pai;
@@ -45,7 +45,7 @@ abstract class Conta
     private float $saldo;
     public static $numeroDeContas = 0;
 
-// Definindo métodos mágicos da classe = Irão inicializar/rodar sempre que a classe for instanciada
+// Definindo métodos mágicos da classe = Irão inicializar/rodar sempre que a classe for instanciada / quando for criado um objeto 
     public function __construct(Titular $titular)
     {
        $this->titular = $titular;
