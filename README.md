@@ -25,6 +25,11 @@
 
 <p align="justify">
  Projetos em desenvolvimento para especializar na linguagem PHP.
+ Anotações do curso:
+   <li
+   -PHP: https://www.notion.so/PHP-Alura-98431a53d76042b8b0fb2c2bd233eedb
+   -POO: https://plaid-son-de0.notion.site/Orienta-o-a-objetos-POO-168faeaef5204ad3b249a6ac7f6a6dd6
+    </li>
 </p>
 
 ##
