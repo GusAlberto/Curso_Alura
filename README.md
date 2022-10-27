@@ -25,6 +25,14 @@
 
 <p align="justify">
  Projetos em desenvolvimento para especializar na linguagem PHP.
+   <br>
+ Anotações do curso:
+   <li
+      <br>
+      PHP: https://www.notion.so/PHP-Alura-98431a53d76042b8b0fb2c2bd233eedb
+      <br>
+      POO: https://plaid-son-de0.notion.site/Orienta-o-a-objetos-POO-168faeaef5204ad3b249a6ac7f6a6dd6
+   </li>
 </p>
 
 ##
@@ -41,21 +49,28 @@
 
 ##
 
-## Codando
-
 <div align="center">
+   
+## $---===Codando===---$
 
-<img src="https://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif" width="300" height="150">
+<img src="https://clubedosgeeks.com.br/wp-content/uploads/2016/01/dormrm.gif" width="500" height="350">
 
 </div>
 
 ##
 
 ## Ferramentas utilizadas
+<div
+     style={
+      display: "flex",
+      flex-direction: "row"}>
+      
+   <borderRadius>
+   <a href="https://www.php.net" target="_blank"> <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/image%20(1).png?raw=true" alt="php" width="120" height="100" /> </a> 
+   </borderRadius>
 
-<a href="https://www.php.net" target="_blank"> <img src="https://kinsta.com/pt/wp-content/uploads/sites/3/2019/05/o-que-php-1024x512.png" alt="php" width="120" height="120"/> </a> 
-
-<a href="https://www.docker.com/" target="_blank"> <img src="LINK IMAGEM NO GITHUB" width="40" height="40"/> </a> 
+   <a href="https://www.docker.com/" target="_blank"> <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/image.png?raw=true" width="120" height="100" /> </a> 
+</div>
 
 ##
 
