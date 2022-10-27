@@ -86,7 +86,7 @@ Você pode [acessar o código fonte do projeto](https://github.com/GusAlberto/Cu
 | :---: |
 
 <style>
-   borderRadius{
+   a>img{
       border-radius: 20%;
    }
    
