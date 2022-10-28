@@ -2,8 +2,6 @@
 
 namespace Alura\Banco\Modelo;
 
-use Alura\Banco\Modelo\CPF;
-
 class Pessoa
 {
     protected string $nome;
@@ -27,5 +25,4 @@ class Pessoa
          return $this->cpf->getCPF();
      }
 
-}
-;
+};
