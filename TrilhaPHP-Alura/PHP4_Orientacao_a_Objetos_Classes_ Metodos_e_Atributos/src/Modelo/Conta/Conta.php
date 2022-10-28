@@ -26,11 +26,12 @@ abstract class Conta
 
 // Definindo comportamentos da classe = MÉTODOS
 
+/* 
     abstract public function percentualTarifa(): float
     {
         ;
     }
-
+ */
     public function saca(float $valorASacar): void
     {
         $tarifaSaque = $valorASacar * $this->percentualTarifa();
