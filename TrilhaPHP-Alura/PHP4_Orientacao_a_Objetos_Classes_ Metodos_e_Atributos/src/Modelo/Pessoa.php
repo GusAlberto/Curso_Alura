@@ -2,8 +2,10 @@
 
 namespace Alura\Banco\Modelo;
 
-class Pessoa
+abstract class Pessoa
 {
+    //Utilizando uma trait para acessar a propriedade diretamente
+    use AcessoPropriedades;
     protected string $nome;
     private CPF $cpf;
 

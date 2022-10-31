@@ -1,7 +1,6 @@
 
 
 /* ARRASTE PARA BAIXO 👇 
-
 Criando classe com suas atribuições e funcionalidades
 ~~~~~Explanation topics~~~~~
 1- Nomes de classes como se fossem *substantivo* e nome de métodos como se fossem *verbos*;
@@ -33,7 +32,18 @@ Criando classe com suas atribuições e funcionalidades
 11- Classe abstrata não pode ser instanciada;
 11.1- Só podemos criar objetos feitos à partir das classes que extendem a classe abstrata pai;
 11.2- Tendo um método abstrato, obriga que todas as classes filhas implementem aquele método;
-11.3- Não impede que novos métodos sejam criados nas classes filhas.
+11.3- A classe abstrata não obriga a ter um método abstrato;
+11.4- Não impede que novos métodos sejam criados nas classes filhas.
 ------------------------------------------------------------------------------------------------------------------------
-
+12- Interfaces servem para podermos implementar pequenos métodos abstratos na nossa classe;
+12.1- Só conseguimos extender os métodos de 1 classe, mas podemos utilizar diversas interfaces;
+12.2- Somos obrigados a implementar TODOS os métodos da Interface que importamos.
+------------------------------------------------------------------------------------------------------------------------
+12- A definição final antes da class ou function(método) serve para impedir herança;
+12.1- Faz que não possam ser mais extendidos;
+12.2- Serve para não adicionar comportamentos indesejados.
+------------------------------------------------------------------------------------------------------------------------
+13- Uma Trait é uma classe onde é utilizada dentro dos atributos "use" de outra classe;
+13.1- É como se fosse feita para copiar e colar os métodos de uma forma simples;
+13.2- Sem necessidade de utilizar herança.
 */
