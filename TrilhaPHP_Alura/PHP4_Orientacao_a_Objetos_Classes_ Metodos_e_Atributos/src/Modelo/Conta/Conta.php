@@ -26,60 +26,48 @@ abstract class Conta
 
 // Definindo comportamentos da classe = MÉTODOS
 
-/* 
-    abstract public function percentualTarifa(): float
-    {
-        ;
-    }
- */
+    abstract public function percentualTarifa(): float;
+
     public function saca(float $valorASacar): void
     {
         $tarifaSaque = $valorASacar * $this->percentualTarifa();
         $valorSaque = $valorASacar + $tarifaSaque;
-        if ($valorASacar > $this->saldo) {
+        if ($valorSaque > $this->saldo) {
             echo "Saldo indisponível.";
             return;
         }
+
         $this->saldo -= $valorASacar;   
     }
 
-    public function deposita(float $valorADepositar): string
+    public function deposita(float $valorADepositar): void
     {
         if ($valorADepositar < 0) {
-            return "Valor precisa ser positivo.";
+            echo "Valor precisa ser positivo.";
+            return ;
         }
 
         $this->saldo += $valorADepositar;
-        $mensagemDeposito =  "$this->saldo";
-        
-        return $mensagemDeposito;
     }
 
-    public function mostraTitular(): string
+    public function mostraSaldo(): float
     {
-        return $this->titular->getNome();
+        return $this->saldo;
     }
 
-    public function mostraCPF(): string
+    public function mostraNomeTitular(): string
     {
-        return $this->titular->getCPF();
+        return $this->titular->recuperaNome();
     }
 
-    public function mostraEndereco(): string
+    public function mostraCPFTitular(): string
     {
-        return $this->endereco->getNumero();
+        return $this->titular->recuperaCPF();
     }
 
-    public function mostraSaldo(): string
-    {
-        return "$this->saldo";
-    }
-
-    public static function mostrarNumeroDeContas(): int
+    public static function mostraNumeroDeContas(): int
     {
         return self::$numeroDeContas;
     }
-
     
-}
-;
+};

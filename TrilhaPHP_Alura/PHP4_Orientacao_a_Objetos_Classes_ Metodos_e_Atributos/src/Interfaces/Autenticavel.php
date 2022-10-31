@@ -1,8 +1,8 @@
 <?php   
 
-namespace Alura\Banco\Modelo;
+namespace Alura\Interfaces;
 
-/* Interface, em resumo, é uma abstract class por "completa";
+/* Interface, em resumo, é uma abstract class;
    Com todos os seus métodos também sendo abstratos.
  */
 interface Autenticavel

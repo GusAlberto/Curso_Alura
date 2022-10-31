@@ -5,7 +5,8 @@ namespace Alura\Banco\Modelo;
 abstract class Pessoa
 {
     //Utilizando uma trait para acessar a propriedade diretamente
-    use AcessoPropriedades;
+    //use AcessoPropriedades;
+
     protected string $nome;
     private CPF $cpf;
 
@@ -17,12 +18,12 @@ abstract class Pessoa
 
 //---> GETTERS AND SETTERS (Métodos de acesso) <---- */
 
-     public function getNome(): string
+     public function recuperaNome(): string
      {
          return $this->nome;
      }
 
-     public function getCPF(): string
+     public function recuperaCPF(): string
      {
          return $this->cpf->getCPF();
      }

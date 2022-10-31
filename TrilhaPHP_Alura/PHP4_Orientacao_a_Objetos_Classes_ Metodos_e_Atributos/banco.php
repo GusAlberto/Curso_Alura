@@ -17,13 +17,14 @@ require_once 'src/Modelo/Conta/Conta.php';
 
 require_once 'src/Modelo/Endereco.php';
 require_once 'src/Modelo/Funcionario.php';
+require_once 'src/Interfaces/Autenticavel.php';
 
+use Alura\Banco\Modelo\Conta\ContaCorrente;
+use Alura\Banco\Modelo\Conta\ContaPoupanca;
 use Alura\Banco\Modelo\Conta\Titular;
 use Alura\Banco\Modelo\Endereco;
 use Alura\Banco\Modelo\CPF;
 use Alura\Banco\Modelo\Conta\Conta;
-use Alura\Banco\Modelo\Conta\ContaCorrente;
-use Alura\Banco\Modelo\Conta\ContaPoupanca;
 
 /*---=== SAÍDA DE DADOS ===---*/
 
@@ -52,8 +53,8 @@ echo PHP_EOL;
 
 //Conta 1
 echo "Conta 1" . PHP_EOL;
-echo "Nome titular da conta: ", $primeiraConta->mostraTitular() . PHP_EOL;
-echo "O CPF da conta é: ", $primeiraConta->mostraCpf() . PHP_EOL;
+echo "Nome titular da conta: ", $primeiraConta->mostraNomeTitular() . PHP_EOL;
+echo "O CPF da conta é: ", $primeiraConta->mostraCPFTitular() . PHP_EOL;
 echo "O saldo da conta é de: R$", $primeiraConta->mostraSaldo() . "\r ;)" . PHP_EOL;
 //echo 'O endereço do titular: ', $primeiraConta->mostrarEndereco() . PHP_EOL;
 
@@ -61,8 +62,8 @@ echo PHP_EOL;
 
 //Conta 2
 echo "Conta 2" . PHP_EOL;
-echo "Nome titular da conta: ", $segundaConta->mostraTitular() . PHP_EOL;
-echo "O CPF da conta é: ", $segundaConta->mostraCpf() . PHP_EOL;
+echo "Nome titular da conta: ", $segundaConta->mostraNomeTitular() . PHP_EOL;
+echo "O CPF da conta é: ", $segundaConta->mostraCPFTitular() . PHP_EOL;
 echo "O saldo da conta é de: R$", $segundaConta->mostraSaldo() . "\r ;)" . PHP_EOL;
 echo PHP_EOL;
 
@@ -76,6 +77,6 @@ echo PHP_EOL;
 // Antes de printar retirar a segunda conta da memória com Unset
 echo "Você excluiu uma das contas ativas! \r"; unset($terceiraConta);
 
-echo "Número de contas ativas na class Conta: ", Conta::mostrarNumeroDeContas();
+echo "Número de contas ativas na class Conta: ", Conta::mostraNumeroDeContas();
 
 ;

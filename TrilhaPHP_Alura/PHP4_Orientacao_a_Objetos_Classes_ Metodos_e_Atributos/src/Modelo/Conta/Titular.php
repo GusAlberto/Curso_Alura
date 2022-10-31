@@ -2,15 +2,13 @@
 
 namespace Alura\Banco\Modelo\Conta;
 
-use Alura\Banco\Modelo\Autenticavel;
+use Alura\Interfaces\Autenticavel;
 use Alura\Banco\Modelo\Pessoa;
 use Alura\Banco\Modelo\CPF;
 use Alura\Banco\Modelo\Endereco;
-use Alura\Banco\Service\Autenticador;
 
 class Titular extends Pessoa implements Autenticavel
 {
- 
     private Endereco $endereco;
 
     public function __construct (CPF $cpf, string $nome, Endereco $endereco)
@@ -28,5 +26,5 @@ class Titular extends Pessoa implements Autenticavel
     {
         return $senha === '0000';
     }
-}
-;
+    
+};
