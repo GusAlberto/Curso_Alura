@@ -1,7 +1,7 @@
 
 
 /* ARRASTE PARA BAIXO 👇 
-Criando classe com suas atribuições e funcionalidades
+Criando classes com suas atribuições e funcionalidades
 ~~~~~Explanation topics~~~~~
 1- Nomes de classes como se fossem *substantivo* e nome de métodos como se fossem *verbos*;
 ------------------------------------------------------------------------------------------------------------------------
