@@ -2,10 +2,13 @@
 
 namespace Alura\Banco\Modelo\Conta;
 
-use Alura\Interfaces\Autenticavel;
+require_once 'src/Modelo/Pessoa.php';
+require_once 'src/Modelo/CPF.php';
+
 use Alura\Banco\Modelo\Pessoa;
 use Alura\Banco\Modelo\CPF;
 use Alura\Banco\Modelo\Endereco;
+use Alura\Interfaces\Autenticavel;
 
 class Titular extends Pessoa implements Autenticavel
 {

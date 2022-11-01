@@ -1,8 +1,11 @@
 
 
 /* ARRASTE PARA BAIXO 👇 
-Criando classes com suas atribuições e funcionalidades
+
+Criando classes{} com suas atribuições e funcionalidades()
+
 ~~~~~Explanation topics~~~~~
+
 1- Nomes de classes como se fossem *substantivo* e nome de métodos como se fossem *verbos*;
 ------------------------------------------------------------------------------------------------------------------------
 2- Pseudo-variável $THIS passa a referência(passar o conteúdo completo) para o objeto que chamou o método atual;

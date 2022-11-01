@@ -50,22 +50,22 @@ abstract class Conta
         $this->saldo += $valorADepositar;
     }
 
-    public function mostraSaldo(): float
+    public function recuperaSaldo(): float
     {
         return $this->saldo;
     }
 
-    public function mostraNomeTitular(): string
+    public function recuperaNomeTitular(): string
     {
         return $this->titular->recuperaNome();
     }
 
-    public function mostraCPFTitular(): string
+    public function recuperaCpfTitular(): string
     {
-        return $this->titular->recuperaCPF();
+        return $this->titular->recuperaCpf();
     }
 
-    public static function mostraNumeroDeContas(): int
+    public static function recuperaNumeroDeContas(): int
     {
         return self::$numeroDeContas;
     }

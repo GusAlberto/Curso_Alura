@@ -1,5 +1,11 @@
 <?php
 
+require_once 'src/Modelo/Pessoa.php';
+require_once 'src/Modelo/CPF.php';
+require_once 'src/Modelo/Funcionario/Funcionario.php';
+require_once 'src/Interfaces/Autenticavel.php';
+require_once 'src/Banco/Service/Autenticador';
+
 use Alura\Banco\Modelo\CPF;
 use Alura\Banco\Modelo\Funcionario\Diretor;
 use Alura\Banco\Service\Autenticador;

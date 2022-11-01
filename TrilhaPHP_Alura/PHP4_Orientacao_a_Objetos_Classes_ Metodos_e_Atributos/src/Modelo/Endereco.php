@@ -2,8 +2,10 @@
 
 namespace Alura\Banco\Modelo;
 
+use Alura\Banco\Traits\AcessoPropriedades;
+
 /**
- * Undocumented class
+ * Class Endereco
  * @property-read string $rua
  * @property-read string $numero
  * @property-read string $bairro
@@ -14,6 +16,7 @@ final class Endereco
 {
     //Utilizando uma trait para acessar a propriedade diretamente
     use AcessoPropriedades;
+
     private string $cidade;
     private string $bairro;
     private string $rua;
@@ -55,4 +58,5 @@ final class Endereco
                 {$this->bairro}, 
                 {$this->cidade}";
     }
-};   
+}
+;   
