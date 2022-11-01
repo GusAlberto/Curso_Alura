@@ -7,8 +7,8 @@
 */
 
 // Importando os dados dos arquivos externos onde ficam as classes
-require_once 'autoload.php';
 
+//require_once 'autoload.php';
 
 require_once 'src/Modelo/Pessoa.php';
 require_once 'src/Modelo/CPF.php';
@@ -20,7 +20,6 @@ require_once 'src/Modelo/Conta/ContaPoupanca.php';
 
 require_once 'src/Modelo/Endereco.php';
 require_once 'src/Modelo/Funcionario/Funcionario.php';
-require_once 'src/Interfaces/Autenticavel.php';
 
 
 use Alura\Banco\Modelo\Endereco;
@@ -50,7 +49,7 @@ $terceiraConta->deposita(300);
 
 echo PHP_EOL;
 
-/*---=== SAÍDA DE DADOS ===---*/
+// ---=== SAÍDA DE DADOS ===---
 
 // Mostrando dados das contas
 // var_dump($primeiraConta) . PHP_EOL;
@@ -72,7 +71,9 @@ echo PHP_EOL;
 
 //Conta 3
 echo "Conta 3" . PHP_EOL;
-echo "O saldo da conta é de: R$", $terceiraConta->recuperaSaldo(). "\r ;)" . PHP_EOL;
+echo "Nome titular da conta: ", $terceiraConta->recuperaNomeTitular() . PHP_EOL;
+echo "O CPF da conta é: ", $terceiraConta->recuperaCpfTitular() . PHP_EOL;
+echo "O saldo da conta é de: R$", $terceiraConta->recuperaSaldo() . "\r ;)" . PHP_EOL;
 echo PHP_EOL;
 
 // Antes de printar retirar uma conta da memória com Unset

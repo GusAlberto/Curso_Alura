@@ -1,6 +1,6 @@
 <?php   
 
-namespace Alura\Interfaces;
+namespace Alura\Banco\Modelo;
 
 /** 
 * Interface, em resumo, é uma abstract class;

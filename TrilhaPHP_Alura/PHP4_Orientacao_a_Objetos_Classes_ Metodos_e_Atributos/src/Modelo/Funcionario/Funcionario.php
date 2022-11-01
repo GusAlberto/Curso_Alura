@@ -33,7 +33,7 @@ abstract class Funcionario extends Pessoa
         $this->nome = $nome;
     }
 
-    public function getSalario(): float
+    public function recuperaSalario(): float
     {
         return $this->salario;
     }

@@ -2,7 +2,7 @@
 
 namespace Alura\Banco\Modelo;
 
-use Alura\Banco\Traits\AcessoPropriedades;
+use Alura\Banco\Modelo\AcessoPropriedades;
 
 /**
  * Class Endereco
@@ -14,8 +14,8 @@ use Alura\Banco\Traits\AcessoPropriedades;
 
 final class Endereco
 {
-    //Utilizando uma trait para acessar a propriedade diretamente
-    use AcessoPropriedades;
+    //Utilizando uma trait para acessar as propriedades diretamente
+    //use AcessoPropriedades;
 
     private string $cidade;
     private string $bairro;
@@ -31,22 +31,22 @@ final class Endereco
     }
 
 //---> GETTERS AND SETTERS (Métodos de acesso) <---- */
-    public function getCidade(): string
+    public function recuperaCidade(): string
     {
         return $this->cidade;
     }
 
-    public function getBairro(): string
+    public function recuperaBairro(): string
     {
         return $this->bairro;
     }
 
-    public function getRua(): string
+    public function recuperaRua(): string
     {
         return $this->rua;
     }
 
-    public function getNumero(): string
+    public function recuperaNumero(): string
     {
         return $this->numero;
     }

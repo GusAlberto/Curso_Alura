@@ -2,13 +2,13 @@
 
 namespace Alura\Banco\Modelo;
 
-use Alura\Banco\Traits\AcessoPropriedades;
+use Alura\Banco\Modelo\AcessoPropriedades;
 
 abstract class Pessoa
 {
-    //Utilizando uma trait para acessar a propriedade diretamente
+    /*Utilizando uma trait para acessar as propriedades diretamente
     use AcessoPropriedades;
-
+    */
     protected string $nome;
     private CPF $cpf;
 

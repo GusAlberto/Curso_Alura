@@ -1,6 +1,6 @@
 <?php
 
-namespace Alura\Banco\Traits;
+namespace Alura\Banco\Modelo;
 
 trait AcessoPropriedades
 {

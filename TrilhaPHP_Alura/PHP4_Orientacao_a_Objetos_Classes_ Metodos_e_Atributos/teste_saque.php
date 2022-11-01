@@ -5,6 +5,12 @@ use Alura\Banco\Modelo\{CPF, Endereco};
 
 require_once 'autoload.php';
 
+require_once 'src/Modelo/Pessoa.php';
+require_once 'src/Modelo/Conta/Titular.php';
+require_once 'src/Modelo/Conta/ContaCorrente.php';
+require_once 'src/Modelo/Endereco.php';
+require_once 'src/Modelo/Autenticavel.php';
+
 $conta1 = new ContaCorrente(
     new Titular(
         new CPF('321.654.987-10'),
@@ -24,4 +30,4 @@ $conta2 = new ContaPoupanca(
 );
 
 $conta1->deposita(500);
-$conta1->transfere(100, $conta2);
+echo $conta1->recuperaSaldo();

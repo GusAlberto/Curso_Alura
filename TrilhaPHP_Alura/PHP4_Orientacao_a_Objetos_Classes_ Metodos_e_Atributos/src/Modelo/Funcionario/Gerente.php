@@ -2,13 +2,13 @@
 
 namespace Alura\Banco\Modelo\Funcionario;
 
-use Alura\Interfaces\Autenticavel;
+use Alura\Banco\Modelo\Autenticavel;
 
 class Gerente extends Funcionario implements Autenticavel
 {
     public function calculaBonificacao(): float
     {
-        return $this->getSalario();
+        return $this->recuperaSalario();
     }
 
     public function podeAutenticar(string $senha): bool

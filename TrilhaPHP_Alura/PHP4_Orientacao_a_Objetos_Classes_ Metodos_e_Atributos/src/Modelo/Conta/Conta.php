@@ -10,13 +10,14 @@ abstract class Conta
     public static $numeroDeContas = 0;
 
 // Definindo métodos mágicos da classe = Irão inicializar/rodar sempre que a classe for instanciada / quando for criado um objeto 
+
     public function __construct(Titular $titular)
     {
        $this->titular = $titular;
        $this->saldo = 0;  
 
        self::$numeroDeContas++ ;
-       echo "Conta nova foi criada" . PHP_EOL;
+       echo "Construtor: conta nova foi criada" . PHP_EOL;
     }
 
     public function __destruct()
@@ -26,7 +27,7 @@ abstract class Conta
 
 // Definindo comportamentos da classe = MÉTODOS
 
-    abstract public function percentualTarifa(): float;
+    abstract protected function percentualTarifa(): float;
 
     public function saca(float $valorASacar): void
     {
