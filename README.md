@@ -28,7 +28,7 @@
 </p>
 
 ### Anotações do curso:
-   - PHP: https://www.notion.so/PHP-Alura-98431a53d76042b8b0fb2c2bd233eedb
+   - PHP: https://plaid-son-de0.notion.site/PHP-Alura-98431a53d76042b8b0fb2c2bd233eedb
       <br>
    - POO: https://plaid-son-de0.notion.site/Orienta-o-a-objetos-POO-168faeaef5204ad3b249a6ac7f6a6dd6
 ##
