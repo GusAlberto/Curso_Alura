@@ -1,7 +1,7 @@
 # Formação PHP | Alura
 
 <p align="center">
-   <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/php.jpg?raw=true" width="1024" height="400">
+   <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP_Alura/img/php.jpg?raw=true" width="1024" height="400">
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@
 </p>
 
 ### Anotações do curso:
-   - PHP: https://www.notion.so/PHP-Alura-98431a53d76042b8b0fb2c2bd233eedb
+   - PHP: https://plaid-son-de0.notion.site/PHP-Alura-98431a53d76042b8b0fb2c2bd233eedb
       <br>
    - POO: https://plaid-son-de0.notion.site/Orienta-o-a-objetos-POO-168faeaef5204ad3b249a6ac7f6a6dd6
 ##
@@ -61,9 +61,9 @@
       display: "flex",
       flex-direction: "row"}>
    
-   <a href="https://www.php.net" target="_blank"> <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/image%20(1).png?raw=true" alt="php" width="120" height="100" /> </a> 
+   <a href="https://www.php.net" target="_blank"> <img src="https://www.onespan.com//sites/default/files/blog/images/logo-php-adbac78231.png" alt="php" width="120" height="100" /> </a> 
 
-   <a href="https://www.docker.com/" target="_blank"> <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP-Alura/img/image.png?raw=true" width="120" height="100" /> </a> 
+   <a href="https://www.docker.com/" target="_blank"> <img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width="120" height="100" /> </a> 
 </div>
 
 ##
