@@ -13,6 +13,8 @@ class ContaCorrente extends Conta
     public function transfere(float $valorATransferir, Conta $contaDestino): void
     {
         if ($valorATransferir > $this->saldo) {
+            // Caso excepcional
+            // Lançar uma exceção
             echo "Você não possui saldo para essa operação.";   
             return;
         } 
