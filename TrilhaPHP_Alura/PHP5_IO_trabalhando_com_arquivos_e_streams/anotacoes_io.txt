@@ -3,6 +3,6 @@
 /** ARRASTE PARA BAIXO 👇 
 Trabalhando com leitura de arquivos em PHP
 ~~~~~Explanation topics~~~~~
-1- Nomes de classes como se fossem *substantivo* e nome de métodos como se fossem *verbos*;
+1- 
 ------------------------------------------------------------------------------------------------------------------------
 */
