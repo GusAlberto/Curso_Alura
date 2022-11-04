@@ -5,8 +5,12 @@ Trabalhando com tramentos de erros em PHP / Stack trace
 
 ~~~~~Explanation topics~~~~~
 1- O que é uma pilha (stack)? ;
-1.1- É uma organização vertical na alocação de memória do sistema, quando executamos algum programa;
-1.2- Cada funcionalidade irá ser executado em ordem. De baixo(começando pela Main) para cima.
+1.1- É uma organização vertical na alocação de memória do sistema,
+     quando executamos algum programa;
+1.2- Cada funcionalidade irá ser executado em ordem. 
+     De baixo(começando pela Main) para cima.
 ------------------------------------------------------------------------------------------------------------------------
-
+2- A tratativa de erro Try - Catch é utilizada para tentar(try) uma ação,
+   e caso ocorrer um erro,
+   pegar(catch) e devolver o porque deu erro.
 */
