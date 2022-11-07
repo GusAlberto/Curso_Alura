@@ -1,0 +1,22 @@
+
+
+/** ARRASTE PARA BAIXO 👇 
+Trabalhando com tramentos de erros em PHP / Stack trace
+
+~~~~~Explanation topics~~~~~
+1- O que é uma pilha (stack)?
+1.1- É uma organização vertical na alocação de memória do sistema,
+     quando executamos algum programa;
+1.2- Cada funcionalidade irá ser executado em ordem; 
+     De baixo(começando pela Main) para cima.
+------------------------------------------------------------------------------------------------------------------------
+2- A tratativa de erro Try-Catch é utilizada para tentar(try) uma ação,
+   e caso ocorrer um erro,
+   pegar(catch) e devolver o motivo do erro.
+------------------------------------------------------------------------------------------------------------------------
+3- Erro é diferente de Exceção.
+------------------------------------------------------------------------------------------------------------------------
+4- Uma exceção é uma classe pai, que a partir dela instaciamos as nossas outras exceções;
+4.1- Na exceção, por exemplo, podemos lançar a mensagem de erro e depois fazer o tratamento;
+4.2- Podemos criar uma exceção nossa, desde que, na nossa classe criada, estendamos de alguma classe exceção já existente
+*/

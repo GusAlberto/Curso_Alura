@@ -7,7 +7,7 @@ abstract class Conta
 // Definindo o que a classe precisa ter = ATRIBUTOS / PROPRIEDADES
     private Titular $titular;
     private float $saldo;
-    public static $numeroDeContas = 0;
+    public static int $numeroDeContas = 0;
 
 // Definindo métodos mágicos da classe = Irão inicializar/rodar sempre que a classe for instanciada / quando for criado um objeto 
 
@@ -34,8 +34,7 @@ abstract class Conta
         $tarifaSaque = $valorASacar * $this->percentualTarifa();
         $valorSaque = $valorASacar + $tarifaSaque;
         if ($valorSaque > $this->saldo) {
-            echo "Saldo indisponível.";
-            return;
+           throw new SaldoInsuficienteException($valorSaque, $this->saldo);
         }
 
         $this->saldo -= $valorASacar;   
@@ -44,8 +43,7 @@ abstract class Conta
     public function deposita(float $valorADepositar): void
     {
         if ($valorADepositar < 0) {
-            echo "Valor precisa ser positivo.";
-            return ;
+            throw new \InvalidArgumentException();
         }
 
         $this->saldo += $valorADepositar;

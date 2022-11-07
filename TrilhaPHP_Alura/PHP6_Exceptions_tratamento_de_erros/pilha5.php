@@ -11,7 +11,7 @@ function funcao1()
     } catch (RuntimeException | DivisionByZeroError $erroOuExcecao) {
         echo 'Motivo do erro: ' . $erroOuExcecao->getMessage() . PHP_EOL;
         echo 'Linha do erro: ' .  $erroOuExcecao->getLine() . PHP_EOL;
-        echo 'Caminho do erro: ' . PHP_EOL .  $erroOuExcecao->getTraceAsString() . PHP_EOL;
+        echo 'Caminho de execução do erro: ' . PHP_EOL .  $erroOuExcecao->getTraceAsString() . PHP_EOL;
 
         throw new RuntimeException(
                 'Exceção foi tratada, mas, pega aí',
@@ -27,7 +27,7 @@ function funcao2()
 {
     echo 'Entrei na função 2...' . PHP_EOL;
 
-    throw new RuntimeException;
+    throw new RuntimeException('Essa é a mensagem de exceção');
 
     echo 'Saindo da função 2 !' . PHP_EOL;
 }
