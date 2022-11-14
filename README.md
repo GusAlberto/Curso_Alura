@@ -1,6 +1,6 @@
 # Formação PHP | Alura
 
-Rápida descrição do objetivo de fazer esse projeto
+Exercícios dentro da formação PHP pela Alura.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
