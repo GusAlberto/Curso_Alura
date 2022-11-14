@@ -1,7 +1,16 @@
 # Formação PHP | Alura
 
+Rápida descrição do objetivo de fazer esse projeto
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Formação em PHP**
+| :label: Tecnologias | PHP 
+| :rocket: URL         | https://url-deploy.com.br
+| :fire: Desafio     | https://url-do-desafio.com.br
+
 <p align="center">
-   <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP_Alura/img/php.jpg?raw=true" width="1024" height="400">
+   <img src="https://github.com/GusAlberto/Curso_Alura/blob/main/TrilhaPHP_Alura/img/php.jpg?raw=true#vitrinedev" width="1024" height="400">
 </p>
 
 <p align="center">
